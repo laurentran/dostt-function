@@ -1,14 +1,19 @@
 {
   "bindings": [
     {
-      "type": "http",
-      "name": "res",
-      "direction": "out"
-    },
-    {
       "type": "manualTrigger",
       "name": "input",
       "direction": "in"
+    },
+    {
+      "type": "twilioSms",
+      "name": "message",
+      "accountSid": "TwilioAccountSid",
+      "authToken": "TwilioAuthToken",
+      "to": "+12177211654",
+      "from": "+14152129686",
+      "body": "Test sms",
+      "direction": "out"
     }
   ],
   "disabled": false
