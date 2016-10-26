@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "http",
+      "name": "res",
+      "direction": "out"
+    },
+    {
+      "type": "manualTrigger",
+      "name": "input",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
