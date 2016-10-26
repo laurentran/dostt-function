@@ -10,8 +10,8 @@
       "name": "message",
       "accountSid": "TwilioAccountSid",
       "authToken": "TwilioAuthToken",
-      "to": "+12177211654",
-      "from": "+14152129686",
+      "to": "ToNumber",
+      "from": "FromNumber",
       "body": "Test sms",
       "direction": "out"
     }
